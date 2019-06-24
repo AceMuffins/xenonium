@@ -1,0 +1,40 @@
+h1 { 
+    color: #577f44;
+    font-family: inherit;
+    font-style: italic;
+    font-size: 60px;
+}
+hr {
+  border-top: 4px solid lightblue;
+}
+.boxed {
+    border: 1px solid #a8fff7;
+    background-color: #a8fff7;
+    width: 90px;
+    height: 25px;
+    margin: 5px;
+    border-bottom: 10px;
+    border-bottom-color: #97e5de;
+}
+.sidenavl {
+  height: 100%;
+  width: 22%; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #79b9e1; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenavr {
+  height: 100%;
+  width: 22%; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 78%;
+  background-color: #79b9e1; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
